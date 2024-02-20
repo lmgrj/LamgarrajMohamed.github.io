@@ -1,0 +1,30 @@
+/* Add global styles here */
+
+/* Header styles */
+.header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Add animations to elements */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animations to specific elements */
+.about-content,
+.research-card,
+.contact-form {
+  animation: fadeInUp 1s ease-out;
+}
+
+/* Add more styles and animations as needed */
